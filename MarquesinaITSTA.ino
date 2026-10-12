@@ -100,9 +100,9 @@ const int NUMERO_CARACTERES_ALFABETO = sizeof(alfabeto) / sizeof(alfabeto[0]);//
 #define NUMERO_LINEAS_TELEGRAMA 5                                             //
 #define LONGITUD_MAXIMA_LINEA_TELEGRAMA 50                                    //
                                                                               //
-#define NUMERO_REDES_WIFI_REGISTRADAS 4                                       //
 const char *WIFI_SSID[]={"TP-Link_LMario_DHCP","INFINITUM2426_2.4"};          //
 const char *WIFI_PASS[]={"lmario28","CNnC917MDE"};                            //
+#define NUMERO_REDES_WIFI_REGISTRADAS (sizeof(WIFI_SSID)/sizeof(WIFI_SSID[0]))//
 #define MAXIMA_LONGITUD_NOMBRE_RED 25                                         //
 #define MAXIMA_LONGITUD_CLAVE_ACCESO_RED 15                                   //
 char SSID[MAXIMA_LONGITUD_NOMBRE_RED];                                        //
